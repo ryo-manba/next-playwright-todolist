@@ -49,7 +49,7 @@ export const TodoItem = ({
           onClick={handleSaveClick}
           className="text-blue-500 hover:text-blue-700"
         >
-          <FontAwesomeIcon icon={faSave} />
+          <FontAwesomeIcon icon={faSave} title="save" />
         </button>
       </li>
     );
@@ -77,13 +77,13 @@ export const TodoItem = ({
           onClick={handleEditClick}
           className="text-yellow-500 hover:text-yellow-700"
         >
-          <FontAwesomeIcon icon={faEdit} />
+          <FontAwesomeIcon icon={faEdit} title="edit" />
         </button>
         <button
           onClick={() => removeTodo()}
           className="text-red-500 hover:text-red-700"
         >
-          <FontAwesomeIcon icon={faTrash} />
+          <FontAwesomeIcon icon={faTrash} title="delete" />
         </button>
       </div>
     </li>
