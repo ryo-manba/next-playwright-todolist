@@ -1,5 +1,5 @@
 {
-  "name": "next-playwright",
+  "name": "next-playwright-todolist",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,7 +15,9 @@
     "react": "latest",
     "react-dom": "latest"
   },
+  "license": "ISC",
   "devDependencies": {
+    "@playwright/test": "^1.38.1",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
